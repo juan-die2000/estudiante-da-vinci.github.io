@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;  
+    flex-direction: column;
+}
+
+  
+header {
+    text-align: center;
+}
+
+nav .listado {
+    text-decoration: none;
+    list-style: none;
+}
+
+.bootstrap-nav {
+    background-color: rgb(255, 119, 221);
+    color: aliceblue;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.cabecera {
+    justify-items: center;
+    background-color: rgb(97, 194, 0);
+    padding: 1rem;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+aside {
+    width: 100%;
+    display: flex;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    justify-content: center;
+}
+
+.nav-items {
+    color: aliceblue;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+article {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.articulos{
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-responsive {
+  width: 100%; 
+  max-width: 20%; 
+  height: auto; 
+  border-radius: 10rem;
+}
+
+.card-title {
+    color: aliceblue;
+}
+
+.card-text {
+    color: aliceblue;
+}
+
+.video-youtube {
+    justify-content: end;
+}
+.formulario {
+    max-width:100%;
+    padding: 4rem;
+    display: flex;
+    justify-content: end;
+}
+
+.container-fluid {
+    max-width: 50%;
+}
+
+.botones li a{
+        text-decoration: none;
+        list-style-type: none;
+        padding: 1.5rem;
+        color: aliceblue;
+    }
+
+.botones {
+        text-decoration: none;
+        list-style-type: none;
+        color: aliceblue;
+        padding: 1.5rem;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+#nota {
+    background-color: rgb(255, 119, 221);
+    padding: 1rem;
+}
+
+#izquierda {
+    align-items: center;
+}
+
+.bloque-cartas{
+    width: 25%;
+    height: auto;
+    align-items: end;
+}
+
+.imagen-modal {
+  width: 100%;        /* La imagen ocupará todo el ancho del modal */
+  height: auto;       /* Mantiene la proporción original */
+  border-radius: 8px; /* Un toque estético para las esquinas */
+  margin-bottom: 15px;/* Espacio entre la imagen y el texto */
+  display: block;     /* Evita espacios extra debajo de la imagen */
+}
+
+.card {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  max-width: 100%;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.imagen-modal {
+  width: 100%;        /* La imagen ocupará todo el ancho del modal */
+  height: auto;       /* Mantiene la proporción original */
+  border-radius: 0.5rem; /* Un toque estético para las esquinas */
+  margin-bottom: 0.9375rem;/* Espacio entre la imagen y el texto */
+  display: block;     /* Evita espacios extra debajo de la imagen */
+}
+
+.footer {
+    background-color: rgb(46, 1, 46);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    position: relative;
+
+}
+
+.footer-derechos {
+    text-align: center;
+    border-top: 1rem solid #333;
+}
+
+.footer-derechos p {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 1rem 1rem;
+    flex-wrap: wrap;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icon {
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 0.8rem;
+    transition: 0.4s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-elem {
+    list-style: none;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    margin: 2rem 1rem;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#contendor {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;  
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: relative;
+}
+
+
+.articulo-video {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+/*tamaños de pantallas de celular*/
+
+@media screen and (min-width: 160px) and (max-width:369px){
+.cabecera img{
+    width: 100%;
+    height: auto;
+}
+
+.logo-responsive {
+  width: 100%; 
+  max-width: 20%; 
+  height: auto; 
+}
+
+}
+
+/*Tamaño de pantallas de tablets*/
+
+@media screen and (min-width:370px) and (max-width:799) {
+.cabecera img{
+    width: 100%;
+    height: auto;
+}
+
+.logo-responsive {
+  width: 100%; 
+  max-width: 20%; 
+  height: auto; 
+}
+
+}
+
+/*tamaños de pantallas de computadora*/
+
+@media screen and (min-width: 800px){
+
+#cabecera .banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+#nota .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.7rem;
+}
+
+#nota h2 {
+    flex: 1 1400px;
+}
+
+#izquierda {
+    width: calc((100% - 2rem) / 2);
+}
+
+#derecha {
+    width: calc((100% - 2rem) / 2);
+}
+
+#bloque-cartas {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.carta {
+    padding: 1.25rem;
+}
+
+.logo-responsive {
+  width:100%; 
+  max-width: 20%; 
+  height: auto; 
+}
+
+
+}
