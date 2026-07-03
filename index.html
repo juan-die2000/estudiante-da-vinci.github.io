@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <title>Juan_Diego_AmadoDM2023AP</title>
+</head>
+<body>
+
+  <div id="contenedor">
+    <section id="barra-buscar">
+<header class="cabecera">
+  <h1>
+    <img src="image/coliberry-logo.png" alt="pajarito" class="logo-responsive">
+  </h1>
+<nav class="navbar navbar-expand-lg row justify-content-center">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+<script>
+  // 1. Seleccionamos el checkbox oculto que controla el estado del menú
+  const checkboxMenu = document.getElementById('menu-toggle');
+
+  // 2. Seleccionamos todos los enlaces (etiquetas <a>) dentro de nuestra lista
+  const enlacesMenu = document.querySelectorAll('.menu-enlaces a');
+
+  // 3. Recorremos cada enlace y le decimos qué hacer cuando le hagan clic
+  enlacesMenu.forEach(enlace => {
+    enlace.addEventListener('click', () => {
+      // Al hacer clic, desmarcamos el checkbox (esto activa el contra colapso CSS)
+      checkboxMenu.checked = false;
+    });
+  });
+</script>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NOSOTROS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#productos">PRODUCTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicio">SERVICIO</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+</section>
+
+ <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<section id="nota">
+        <div class="contenedor">
+            <h2>Coliberry</h2>
+        <div id="izquierda">
+            <p>En un mundo cada vez más acelerado y desconectado de sus raíces primigenias, 
+              Coliberry nace como una respuesta profunda a la necesidad humana de reencontrar 
+              el equilibrio entre el cuerpo, la mente y la tierra. No se trata simplemente de una marca comercial, 
+              sino de una filosofía de vida que entiende que la verdadera salud no se fabrica de manera mecánica, 
+              sino que florece de forma orgánica cuando volvemos a hundir las manos en el sustrato. 
+              La premisa fundamental es que cultivar nuestro entorno es, en esencia, cultivarnos a nosotros mismos. 
+              Vivimos rodeados de estímulos artificiales y ritmos industriales que agotan nuestra psique y debilitan nuestro cuerpo, 
+              olvidando que somos seres biológicos diseñados para latir al mismo compás que la naturaleza y sus estaciones.</p>
+                <p>Coliberry propone un retorno a esa verdad ineludible, 
+                  ofreciendo un ecosistema integral donde la jardinería, 
+                  el consumo de productos puros y la creación de santuarios botánicos 
+                  personales se convierten en terapias tangibles para el alma y el organismo. 
+                  Cuando una persona decide sembrar una semilla, no solo está plantando un futuro alimento
+                   o una flor; está practicando el arte milenario de la paciencia, observando 
+                   cómo la vida se abre paso a través de la oscuridad del suelo, un proceso que 
+                   actúa como un poderoso ancla mental contra la ansiedad y el ruido de la era moderna.</p>
+                </p>
+        </div>
+        <div id="derecha">
+            <p>Esta conexión táctil y física con la tierra, 
+              el cuidado diario y el respeto por los ciclos naturales restauran la paz interior y 
+              nos enseñan que los procesos más valiosos requieren tiempo, alejándonos de la 
+              tiranía de la gratificación instantánea. A nivel físico, esta comunión se traduce en una nutrición auténtica, 
+              libre de artificios, donde cada nutriente absorbido proviene de un suelo sano, respetado y lleno de vitalidad, 
+              fortaleciendo nuestro cuerpo desde sus propios cimientos celulares.</p>
+            <p>El propósito final de Coliberry es inspirar a que cada individuo construya su propio refugio vivo, 
+              ya sea en la inmensidad de un terreno abierto o en el rincón de un balcón urbano, 
+              transformando ese espacio en un organismo que respire y evolucione junto a él. 
+              Así, el bienestar integral deja de ser un concepto abstracto para convertirse 
+              en un viaje continuo y profundamente orgánico, un relato vivo donde la salud mental
+               y física se entrelazan como las raíces de un bosque antiguo que se aferra con fuerza y 
+               sabiduría a la vida.</p>
+        </div>
+        </div>
+    </section>
+
+    <section class="carusel" id="productos">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <source media="max-width: 315px">
+      <img src="image/yoga.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h2>Yoga</h2>
+        <p>Conecta con tu interior. Encuentra tu equilibrio</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+
+      <img src="image/meditacion.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h2>Meditación</h2>
+        <p>Observa, respira, comprende</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/alimentacion-saludable.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h2>Alimentación orgánica</h2>
+        <p>Tu cuerpo es tu templo; aliméntalo bien</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </section>
+
+    <section class="card" id="#servicio">
+
+        <div class="row justify-content-evenly">
+            <div class="col-xl-3 col-md-5 mb-3 mb-xl-0 col-8">
+                <div class="card bg-success">
+  <img src="image/solitaria-meditacion.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cursos de meditación</h5>
+    <p class="card-text">Recuperá el control de tu vida, encontrando la paz en el silencio.</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal-1">
+  Ver Más
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Los beneficios que aporta meditar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+  <p>La meditación es un entrenamiento mental que ayuda a recuperar la calma y el equilibrio interior. Sus efectos positivos están respaldados por la ciencia e incluyen la reducción del estrés, un mejor control emocional, mayor concentración y un descanso más reparador.</p>>
+  <p>Disminuye los niveles de cortisol y calma la respuesta de "lucha o huida" del sistema nervioso.</p>
+  <p>Ayuda a entender y reconocer los sentimientos propios, reduciendo la reactividad ante situaciones difíciles.</p>
+  <img src="image/meditacion-hogar.png" alt="Descripción de la imagen" class="imagen-modal">
+  <p>Aumenta la capacidad de atención sostenida y disminuye la "rumiación" o el ruido mental.</p>>
+  <p>Al relajar el cuerpo y aquietar la mente, facilita conciliar el sueño y mejora su calidad.</p>
+  <p>Contribuye a disminuir la presión arterial y estabilizar el ritmo cardíaco.</p>
+  <p>Estudios demuestran que una práctica regular puede aumentar la densidad de materia gris en el cerebro, mejorando la memoria y el aprendizaje.</p>>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+</div>
+            </div>
+
+            <div class="col-xl-3 col-md-5 mb-3 mb-xl-0 col-8">
+                <div class="card bg-success">
+  <img src="image/ayuno-intermitente.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ayuno saludable</h5>
+    <p class="card-text">Pierda grasa corporal reduciendo la cantidad de alimentos.</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+  Ver Más
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel-2">Lo que aporta en ayuno</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+  <p>El ayuno intermitente activo (que combina periodos de ayuno con actividad física) optimiza la quema de grasas y mejora la flexibilidad metabólica. Sus principales beneficios incluyen la pérdida de peso, una mayor sensibilidad a la insulina, reducción de la inflamación sistémica y la estimulación de la autofagia (renovación celular).</p>>
+  <p>Al llevar un estilo de vida activo junto con el ayuno, el cuerpo prioriza el uso de reservas de grasa como energía, ayudando a mantener la masa muscular.</p>
+  <img src="image/ayuno-dos.jpg" alt="Descripción de la imagen" class="imagen-modal">
+  <p>Cuando no comes durante un período un tiempo, varias cosas suceden en tu cuerpo. Por ejemplo, Los niveles de insulina en la sangre caen significativamente, lo que facilita quemar la grasa.</p>>
+  <p>Los niveles en sangre de la hormona del crecimiento humano (HCH) pueden aumentar dramáticamente. Los niveles más altos de esta hormona facilitan quemar la grasa y aumentar el músculo, y tienen muchos otros beneficios.</p>
+  <p> El cuerpo induce importantes procesos de reparación celular, como eliminar los residuos de las células.</p>
+  <p>Hay cambios beneficiosos en varios genes y moléculas relacionados con la longevidad y la protección contra enfermedades.</p>>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+</div>
+            </div>
+
+            <div class="col-xl-3 col-md-5 mb-3 mb-xl-0 col-8">
+                <div class="card bg-success">
+  <img src="image/aerobico-ejercicios.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ejercicios aeróbicos</h5>
+    <p class="card-text">El movimiento es una medicina para crear el cambio físico, emocional y mental.</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal-3">
+  Ver Más
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Cuando mueves el cuerpo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+  <p>El ejercicio aeróbico representa mucho más que una simple rutina de desgaste físico; es un diálogo profundo y rítmico entre el oxígeno que respiramos y cada célula de nuestro cuerpo. Cuando comenzamos a movernos de manera sostenida, ya sea caminando a paso ligero, nadando, corriendo o pedaleando, iniciamos una transformación interna que trasciende la mera estética para convertirse en un verdadero catalizador de vitalidad. A nivel cardiovascular, el corazón se fortalece y optimiza su capacidad de bombear sangre, mejorando la circulación general y reduciendo significativamente los riesgos de padecer enfermedades crónicas, al mismo tiempo que la presión arterial encuentra un equilibrio mucho más sano y natural. Esta oxigenación profunda no solo nutre los tejidos y la musculatura, sino que viaja directamente hacia el cerebro, donde el impacto neurológico es verdaderamente transformador.</p>>
+  <p>Al mantener este esfuerzo constante, la irrigación sanguínea cerebral aumenta, lo que estimula activamente la creación de nuevas conexiones neuronales y protege la estructura del cerebro. Esto se traduce en una memoria más ágil, una mayor capacidad de concentración y una mente más nítida y resiliente frente al inevitable envejecimiento cognitivo. Simultáneamente, el movimiento continuo actúa como un poderoso antídoto orgánico contra el estrés, la ansiedad y la sobrecarga emocional de la vida moderna. Durante la práctica, el organismo desencadena la liberación masiva de endorfinas, dopamina y serotonina, un cóctel químico natural que disipa la tensión acumulada en los músculos y nos envuelve en una sensación de claridad y profunda calma mental que perdura durante horas después de haber terminado la actividad.</p>
+<img src="image/aerobics.png" alt="Descripción de la imagen" class="imagen-modal">
+  <p>A nivel sistémico y metabólico, someter al cuerpo a esta cadencia armónica mejora drásticamente la sensibilidad a la insulina y ayuda a regular de forma eficiente los niveles de glucosa en el torrente sanguíneo, convirtiéndose en un escudo protector fundamental contra desórdenes metabólicos. Los pulmones, por su parte, se expanden y maximizan su eficiencia en cada inhalación, lo que genera un incremento notable de nuestra energía diaria, alejando la fatiga crónica y ese agotamiento prematuro que suele acompañar al sedentarismo. Además, este estado de actividad y gasto energético promueve un descanso nocturno mucho más profundo, ininterrumpido y reparador, permitiendo que el cuerpo y la mente se regeneren por completo durante la fase de sueño. En definitiva, integrar el esfuerzo aeróbico en nuestra cotidianidad es abrazar un ciclo de renovación constante, una celebración biológica del movimiento que nos devuelve a nuestra naturaleza más dinámica y que eleva de forma innegable la calidad, la fuerza y la lucidez con la que experimentamos cada día.</p>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+</div>
+            </div>
+
+            <div class="col-xl-3 col-md-5 mb-3 mb-xl-0 col-8">
+                <div class="card bg-success">
+  <img src="image/dieta-saludable-dos.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Dieta saludable</h5>
+    <p class="card-text">Ingredientes reales para personas reales con ganas de vivir más y mejor</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal-4">
+  Ver Más
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Scrollable modal -->
+<div class="modal-dialog modal-dialog-scrollable">
+  <p>Adoptar una dieta equilibrada y completamente libre de azúcares refinados y alimentos ultraprocesados no es un simple cambio superficial en los hábitos alimenticios, sino un profundo reinicio metabólico que reconecta al cuerpo humano con su estado de funcionamiento más auténtico. Durante décadas, la industria alimentaria moderna ha normalizado el consumo de aditivos artificiales, conservantes sintéticos y calorías vacías, creando una ilusión de nutrición que en realidad priva a nuestras células de sustento y sobrecarga nuestros sistemas digestivos. Al eliminar estos elementos tóxicos y regresar a los ingredientes naturales e integrales, iniciamos un proceso de desintoxicación inmediato donde el hígado, los riñones y los intestinos finalmente pueden descansar de la carga constante que supone procesar compuestos químicos irreconocibles. Esta transición marca el comienzo de un despertar biológico, donde el organismo deja de luchar contra lo que consume y comienza a utilizar los alimentos como un verdadero combustible estructural,</p>>
+  <p>Uno de los beneficios más inmediatos y transformadores de erradicar los azúcares añadidos de nuestra ingesta diaria es la estabilización de los niveles de glucosa en sangre, lo que se traduce directamente en una fuente de energía constante y confiable a lo largo de todo el día. Cuando consumimos alimentos azucarados o altamente procesados, sometemos a nuestro páncreas a una montaña rusa agotadora de picos y caídas de insulina, lo que nos deja letárgicos, irritables y con una necesidad constante de consumir más azúcar apenas unas horas después de haber comido. Al basar nuestra nutrición en carbohidratos complejos, proteínas de alta calidad y grasas saludables, la absorción de nutrientes se convierte en un proceso lento y sostenido, proporcionando una liberación ininterrumpida de energía que elimina los temidos bajones de media tarde. Esta estabilidad metabólica no solo mejora la resistencia física, sino que también nos libera de la dependencia psicológica de la comida como muleta emocional, permitiendo que el hambre vuelva a ser una señal natural y manejable en lugar de una demanda urgente y generadora de ansiedad.</p>
+  <img src="image/dieta-saludable-uno.jpg" alt="Descripción de la imagen" class="imagen-modal">
+  <p>Más allá de los cambios físicos, el impacto de una alimentación limpia y sin procesar en la salud neurológica y la función cognitiva es absolutamente extraordinario, a menudo descrito por quienes lo experimentan como el levantamiento de una niebla mental densa y persistente. El cerebro es un órgano increíblemente exigente que requiere combustible de alta calidad para realizar sus complejas tareas, y es altamente susceptible a los efectos inflamatorios causados por los aceites de semillas industriales, las harinas refinadas y el jarabe de maíz con alto contenido de fructosa. Cuando estos agentes inflamatorios se eliminan y se reemplazan por alimentos densos en nutrientes, ricos en ácidos grasos omega-3, antioxidantes y vitaminas esenciales, la neuroinflamación disminuye drásticamente, facilitando un proceso de pensamiento mucho más claro y ágil. Esta optimización neurológica mejora la retención de la memoria, agudiza el enfoque y aumenta significativamente nuestra capacidad para mantener una concentración profunda y prolongada, al tiempo que ofrece un poderoso efecto protector contra el deterioro cognitivo prematuro.</p>>
+
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+</div>
+            </div>
+        </div>
+
+  </section>
+
+    
+  </section>
+<article>
+  <h3>Contactenos si está interesado en participar en uno de nuestros cursos de vida saludable</h3>
+</article>
+  <aside>
+    <form action="https://formsubmit.co/juan.amado@davinci.edu.ar" method="POST"></form>
+    <form action="recibe.php" method="post">
+      <div class="formulario-detalles">
+      <div>
+        <label for="apellido">Apellido</label>
+      <input type="text " name="Apellido" id="apellido" autocomplete="on" autofocus required>
+      </div>
+
+      <div>
+        <label for="nombre">Nombre</label>
+      <input type="text" name="Nombre" id="nombre" autocomplete="on" autofocus required>
+      </div>
+
+      <div>
+        <label for="mail">Mail</label>
+      <input type="text" name="Mail" id="mail" autocomplete="on" autofocus required>
+      </div>
+
+      <div>
+        <label for="archivo">Archivos</label>
+      <input type="file" name="Archivo" id="archivo" accept="image/png,imagen7jpg">
+      </div>
+
+      <div class="pizarra">
+        <label for="comentario">Comentario</label>
+      <textarea name="Comentario" id="comentario" cols="40" rows="5"></textarea>
+      </div>
+
+      <div>
+        <input type="reset" value="limpiar">
+        <button type="submit">Enviar</button>
+      </div>
+
+      </div>
+  </aside>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <article class="articulo-video">
+    <figure class="ratio ratio-16x9">
+      <iframe width="560" height="315" 
+      src="https://www.youtube-nocookie.com/embed/GtHHNjAy3V8?si=QtlDA8iPVBpYv_zu" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </figure>
+  </article>
+
+  <footer class="footer">
+        <p class="text">Seguinos</p>
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="https://www.twitter.com/" target="_blank" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="https://www.tiktok.com/" target="_blank" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg>
+                </a>
+            </li>
+
+            <li class="icon-elem">
+                <a href="https://www.facebook.com/" target="_blank" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017
+   1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>
+                </a>
+            </li>
+
+            <li class="icon-elem">
+                <a href="https://workspace.google.com/intl/es-419_ar/gmail/" target="_blank" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+</svg>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#" class="menu-icon">Juan Diego</a></li>
+            <li><a href="#" class="menu-icon">Amado</a></li>
+            <li><a href="#" class="menu-icon">Maquetado y Desarrollo Web</a></li>
+            <li><a href="#" class="menu-icon">Comisión A</a></li>
+            <li><a href="#" class="menu-icon">Turno Mañana</a></li>
+            <li><a href="#" class="menu-icon">Segundo Cuatrimestre</a></li>
+        </ul>
+        <p class="text">Todos los Derechos Reservados/ Copyright&copy;2025</p>
+        
+    </footer>
+  </div>
+
+</body>
+</html>
